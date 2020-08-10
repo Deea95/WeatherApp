@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="530.0" fitWidth="802.0" layoutX="-8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/sky.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="470.0" opacity="0.63" prefHeight="530.0" prefWidth="324.0" style="-fx-background-color: #1f1d28;">
+         <children>
+            <Label layoutX="107.0" layoutY="14.0" prefHeight="130.0" prefWidth="103.0" text="⛅" textFill="#f7f7f2">
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="113.0" prefHeight="31.0" prefWidth="132.0" text="Sunny Day" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Separator layoutX="14.0" layoutY="160.0" prefHeight="11.0" prefWidth="294.0" />
+            <Label layoutX="27.0" layoutY="196.0" prefHeight="24.0" prefWidth="132.0" text="Luni" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="234.0" prefHeight="24.0" prefWidth="132.0" text="Marti" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="276.0" prefHeight="24.0" prefWidth="132.0" text="Miercuri" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="318.0" prefHeight="24.0" prefWidth="132.0" text="Joi" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="360.0" prefHeight="24.0" prefWidth="132.0" text="Vineri" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="399.0" prefHeight="24.0" prefWidth="132.0" text="Sambata" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="445.0" prefHeight="24.0" prefWidth="132.0" text="Duminica" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="198.0" prefHeight="28.0" prefWidth="70.0" text="16 ℃" textFill="#00ccff">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="401.0" prefHeight="28.0" prefWidth="70.0" text="23 ℃" textFill="#00ccff">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="447.0" prefHeight="28.0" prefWidth="70.0" text="24 ℃" textFill="#00ccff">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="362.0" prefHeight="28.0" prefWidth="70.0" text="17 ℃" textFill="#00ccff">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="320.0" prefHeight="28.0" prefWidth="70.0" text="18 ℃" textFill="#00ccff">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="278.0" prefHeight="28.0" prefWidth="70.0" text="16 ℃" textFill="#00ccff">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="236.0" prefHeight="28.0" prefWidth="70.0" text="16 ℃" textFill="#00ccff">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="165.0" layoutY="25.0" prefHeight="59.0" prefWidth="207.0" text="BUCHAREST" textAlignment="CENTER" textFill="#0b035e">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="432.0" prefHeight="37.0" prefWidth="144.0" text="18:25:00" textFill="#00ccff">
+         <font>
+            <Font name="Calibri Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="469.0" prefHeight="37.0" prefWidth="304.0" text="Vineri, 17 aprilie 2020" textFill="#00bfff">
+         <font>
+            <Font name="Calibri Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="68.0" prefHeight="59.0" prefWidth="103.0" text="Romania" textAlignment="CENTER" textFill="#0b035e">
+         <font>
+            <Font name="Calibri Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="345.0" layoutY="387.0" prefHeight="44.0" prefWidth="103.0" text="24 ℃" textFill="#00ccff">
+         <font>
+            <Font name="Calibri Bold" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
